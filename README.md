@@ -5,4 +5,4 @@
 - This project requires Javascript to be enabled in your browser.
 - This project is not responsive
   <br />
-` ## WORKS ONLY IN LAPTOP AND TABLET MODE
+## WORKS ONLY IN LAPTOP AND TABLET MODE
