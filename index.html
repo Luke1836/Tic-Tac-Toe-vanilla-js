@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <header>
+        <img src="game-logo.png" alt="Hand-drawn Tic-Tac-Toe board">
+        <h1>Tic-Tac-Toe</h1>
+    </header>
+
+    <div id="game-container">
+        <ol id="players" class="highlight-player">
+            <li id="player-X" class="active">
+                <span class="player">
+                    <span class="player-name" id="player-X-name">Player 1</span>
+                    <span class="player-symbol">X</span>
+                </span>
+                <button onclick="editPlayerName('X')">Edit</button>
+            </li>
+            <li id="player-O">
+                <span class="player">
+                    <span class="player-name" id="player-O-name">Player 2</span>
+                    <span class="player-symbol">O</span>
+                </span>
+                <button onclick="editPlayerName('O')">Edit</button>
+            </li>
+        </ol>
+
+        <div id="game-board">
+            <ol>
+                
+            </ol>
+        </div>
+
+
+        <div id="game-over">
+            <h2>Game Over</h2>
+            <p id="game-result"></p>
+            <button onclick="restartGame()">Rematch!</button>
+        </div>
+
+
+        <ol id="log">
+            
+        </ol>
+    </div>
+
+    <div className="footer">
+
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
